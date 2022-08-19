@@ -12,4 +12,5 @@ This project proposed a new few-shot model, which uses ResNet as backbone. I fir
 
 # About the files
 The mini-ImageNet and Fish100 dataset is zipped in 'materials.zip', to use them please unzip it first.
+
 Folder 'save' contains previous trained models, it can be used directly with model.upload().
