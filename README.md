@@ -5,6 +5,6 @@ Few-shot is a rising method in deep learning image recognition. By imitating hum
 
 This project proposed a new few-shot model, which uses ResNet as backbone. I firstly used mini-ImageNet to pre-train the model, and move its parameters under transfer learning condition. Then, used the Fish100 dataset, a fish image dataset which is a subset of Image CLEF, to train and test this model, and made a contrast with other 5 kinds of current models. The result shows that the new model has reached the best performance of 0.9084, along with a better precision, recall, and F than all other models.
 
-mini-ImageNet and Fish100 dataset is zipped in 'materials.zip', to use them please unzip it first.
+The mini-ImageNet and Fish100 dataset is zipped in 'materials.zip', to use them please unzip it first.
 
 Folder 'save' contains previous trained models, it can be used directly with model.upload().
